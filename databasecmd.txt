@@ -1,0 +1,36 @@
+first folder vitore tarpor
+# mysql.exe -h localhost -u root -p 
+click korer por mysql access korte parbo
+#SHOW DATABASES;
+Database guli show korebe..
+Datebase New create korer janno 
+#CREATE DATABASE (databasename)
+Ai command korle dababase create hoi.
+Fixed database ke access korer janno 
+#USE databasename
+command use korte hoi.
+Table guli ke show korer janno 
+#SHOW TABLES;
+Table create korer janno 
+#CREATE TABLE teacher_list(
+	-> id int(11) not null auto_increment,
+	-> name varchar(200) not null,
+	-> phone varchar(11) not null,
+	-> primary key (id));
+terminal a vabe table create korte hoi;
+
+Table Data Insert korbo ki vabe:
+#INSERT INTO table-name(column name) VALUES('');
+value guli ke show korer janno 
+#SELECT * FROM table name;
+fixed kon id dhorer janno 
+#SELECT * FROM table name WHERE id=1;
+fixed kon column dhorer janno;
+#SELECT name FROM table-name WHERE id=2;
+table column value guli ki vabe update korbo;
+#UPDATE table-name SET COLUMN NAME=VALUE WHERE id=2; 
+single akte table ke delete korer janno 
+#DELETE FROM teacher_list WHERE id=1;
+
+
+
