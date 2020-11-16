@@ -1,0 +1,11 @@
+
+ORDER_BY :
+#select * from table_name ORDER_BY column_name;
+#select * from table_name ORDER_BY column_name ASC;
+ORDER_BY AND ASC same kaj kore tahole kono ASC use korbo..??
+Small theke Big jabe..
+ORDER BY DESC;
+#select * from table_name ORDER_BY column_name DESC;
+BIG THEKE SMALL JABE...
+SELECT * FROM table_name WHERE condition(AND , OR, NOT);
+

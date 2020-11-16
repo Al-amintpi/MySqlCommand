@@ -1,0 +1,21 @@
+<?php if(condition) : ?>
+html code thekba
+<?php elseif(condition) : ?>
+<?php endif; ?>
+
+DATABASE THEKE DATA GULI KI VABE SHOW KOREBO 
+<?php 
+$statement = $pdo->prepare("SELECT * FROM student_list");
+ $statement->execute();
+$st_list = $statement->fetchAll(PDO::FETCH_ASSOC);
+$a=1;
+foreach ($st_list as $single_list) :
+
+?>
+
+<?php endforeach; ?>
+
+KIVABE HTML FORM THEKE DATA NEYA DATABASE SAVE KORBO
+	$statement = $pdo->prepare("INSERT INTO student_list(name,roll,age)VALUES(?,?,?)");
+		$statement->execute(array($name,$roll,$age));
+		$success = "Registration successfull";

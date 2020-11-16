@@ -29,8 +29,17 @@ fixed kon column dhorer janno;
 #SELECT name FROM table-name WHERE id=2;
 table column value guli ki vabe update korbo;
 #UPDATE table-name SET COLUMN NAME=VALUE WHERE id=2; 
-single akte table ke delete korer janno 
+single akte table er first-column delete ke delete korer janno 
 #DELETE FROM teacher_list WHERE id=1;
+Table-name Rename..
+#ALTER TABLE TABLE_NAME RENAME TO NEW_TABLE_NAME;
+Table new column add..
+#ALTER TABLE table_name ADD COLUMN-NAME DEFINATION AFTER COLUMN NAME;
+Table  column delete korer janno 
+#ALTER TABLE table_name drop column column_name;
+column name Rename
+#ALTER TABLE TABLE_NAME CHANGE Vull column_name right_column_name defination;
+ 
 
 
 
